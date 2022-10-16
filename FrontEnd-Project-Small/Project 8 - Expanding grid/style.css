@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:url("https://cdn.the-scientist.com/assets/articleNo/38003/iImg/18451/8ec1b465-d1d3-4890-99ad-de1233251513-eye.jpg")no-repeat;
+    background-size: cover;
+}
+.container1{
+    display: flex;  /* move text to one line */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* border: 1px solid; */
+    padding: 20px;
+}
+
+.heading{
+margin-right: 100px;
+    /* border: 1px solid; */
+width: 150px;
+padding: 20px;
+font-size: 20px;
+font-family: cursive;
+/* letter-spacing: 2px; */
+text-align: center;
+cursor: pointer;
+text-shadow: -1px 0 white,0 1px white,1px 0 white,0 -1px white;
+box-shadow: 2px 2px 20px 5px white;
+}
+
+
+
+#color1{
+ background-color: yellow;
+
+}
+#color2{
+    background-color: rgb(0, 17, 255);
+   
+   }
+   #color3{
+    background-color: rgb(215, 32, 194);
+   
+   }
+   #color4{
+    background-color: rgb(198, 120, 17);
+   
+   }
+         
+
+.container{
+    padding: 30px;
+    position: fixed;
+    top: 5%;
+    box-shadow: 2px 2px 20px 5px rgb(14, 13, 13);
+}
+
+
+
+.btn{
+    font-size: 30px;
+    float: right;
+    cursor: pointer;
+    color: white;
+    text-shadow: -1px 0 black,0 1px black,1px 0 black,0 -1px black;
+}
+
+
+.text{
+    font-size: 20px;
+    font-family: cursive;
+    color: white;
+    text-shadow: -1px 0 black,0 1px black,1px 0 black,0 -1px black;
+}
+
+
+#box1{
+    display: none;
+    background-image:linear-gradient(yellow,black);
+
+}
+#box2{
+    display: none;
+    background-image:linear-gradient(rgb(54, 27, 205),black);
+
+}
+#box3{
+    display: none;
+    background-image:linear-gradient(rgb(211, 53, 127),black);
+
+}
+#box4{
+    display: none;
+    background-image:linear-gradient(rgb(203, 130, 11),black);
+
+}

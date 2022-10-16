@@ -1,0 +1,23 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 200vh;
+}
+
+#scrolltext{
+    color: rgb(252, 245, 245);
+    text-shadow: -4px 0 black,0 4px black,4px 0 black,0 -4px black;
+    font-size: 100px;
+    font-family: cursive;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 50px 10px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 4px;
+}

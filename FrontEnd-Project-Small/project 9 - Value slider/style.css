@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+background:url("https://th.bing.com/th/id/R.38c832e184d584f62764b3b762c5de05?rik=KY%2bNNticFhWMFQ&riu=http%3a%2f%2fcdn55.picsart.com%2f168598511001201.jpeg&ehk=pcppHT8xjO75TuutXl5zMPZT6P7I%2b8FUIxMNoHcdsfk%3d&risl=&pid=ImgRaw&r=0");
+background-size: cover;
+}
+
+.container{
+    position: absolute;
+    top: 30%;
+    background-image: radial-gradient(white,rgb(243, 182, 192),white);
+    padding: 100px;
+    width: 100%;
+}
+
+#rangevalue{
+    width: 100%;
+    background: red;
+    appearance: none; /* for red color none*/
+    outline: none;
+    height: 20px;
+    box-shadow: 3px 3px 16px black;
+    margin-bottom: 30px;
+    border-radius: 40px;
+}
+
+#rangevalue::-webkit-slider-thumb{
+    width: 25px;
+    height: 30px;
+    appearance: none;
+    background: yellow;
+    cursor: pointer;
+    box-shadow: 2px 2px 6px black;
+    border-radius: 10px;
+}
+
+
+
+p{
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+    color: rgb(31, 8, 8);
+    text-shadow:-1px 0 black,0 1px black,1px 0 black,0 -1px black;
+
+}

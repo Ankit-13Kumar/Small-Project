@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>expanding grid</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container1">
+        <div class="heading"id="color1" onclick="boxContainer('box1')">Read More </div>
+        <div class="heading"id="color2"onclick="boxContainer('box2')">About Us</div>
+        <div class="heading"id="color3"onclick="boxContainer('box3')">Know More</div>
+        <div class="heading"id="color4"onclick="boxContainer('box4')">Adress</div>
+    </div>
+
+    <div class="container" id="box1">
+        <span class="btn" onclick="this.parentElement.style.display='none' ">&times;</span>
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quia harum vel facilis officia explicabo vero sunt amet non aperiam. Repudiandae totam animi soluta, fuga molestias impedit accusantium nam labore!</p>
+    </div>
+
+    <div class="container" id="box2">
+        <span class="btn" onclick="this.parentElement.style.display='none' ">&times;</span>
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quia harum vel facilis officia explicabo vero sunt amet non aperiam. Repudiandae totam animi soluta, fuga molestias impedit accusantium nam labore!</p>
+    </div>
+
+    <div class="container" id="box3">
+        <span class="btn" onclick="this.parentElement.style.display='none' ">&times;</span>
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quia harum vel facilis officia explicabo vero sunt amet non aperiam. Repudiandae totam animi soluta, fuga molestias impedit accusantium nam labore!</p>
+      </div> 
+    
+    <div class="container" id="box4">
+        <span class="btn" onclick="this.parentElement.style.display='none' ">&times;</span>
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quia harum vel facilis officia explicabo vero sunt amet non aperiam. Repudiandae totam animi soluta, fuga molestias impedit accusantium nam labore!</p>
+    </div>
+
+    
+    <script src="/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button{
+    width: 300px;
+    /* height: 20px; */
+    padding: 20px;
+    border-radius: 50px; /* circle rounded*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    outline: none;
+    border: none;
+    box-shadow: 3px 3px 7px black;  /* 7px for blur*/
+    font-size: 30px;
+    font-family: cursive;
+    background-image: linear-gradient(blue,yellow);
+    color: white;
+}
